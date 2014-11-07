@@ -1,5 +1,5 @@
 var assert = require('assert');
-var mr = require('../');
+var mr = require('../').create();
 var bn = require('bn.js');
 
 describe('Miller-Rabin', function() {
