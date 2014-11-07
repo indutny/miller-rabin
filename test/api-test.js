@@ -14,6 +14,5 @@ describe('Miller-Rabin', function() {
                    '79d695bb732449f0e015745b86bfa371dc6ca7386e9c7309' +
                    '5549c2e4b8002873', 16);
     assert(mr.test(p));
-    assert(!mr.test(p.subn(1)));
   });
 });
