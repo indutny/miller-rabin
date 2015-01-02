@@ -25,10 +25,8 @@
     "bn.js": "^0.16.0",
     "mocha": "^2.0.1"
   },
-  "peerDependencies": {
-    "bn.js": "^0.16.0"
-  },
   "dependencies": {
+    "bn.js": "^0.16.0"
     "brorand": "^1.0.1"
   }
 }
