@@ -22,11 +22,11 @@
   },
   "homepage": "https://github.com/indutny/miller-rabin",
   "devDependencies": {
-    "bn.js": "^0.15.0",
+    "bn.js": "^0.16.0",
     "mocha": "^2.0.1"
   },
   "peerDependencies": {
-    "bn.js": "^0.15.0"
+    "bn.js": "^0.16.0"
   },
   "dependencies": {
     "brorand": "^1.0.1"
