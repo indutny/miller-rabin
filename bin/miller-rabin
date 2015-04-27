@@ -22,6 +22,8 @@ function start(text) {
   var divisor = mr.getDivisor(num);
   if (!divisor)
     process.exit(1);
+  if (divisor.cmpn(1) === 0)
+    process.exit(0);
 
   console.log(divisor.toString(16));
 }
