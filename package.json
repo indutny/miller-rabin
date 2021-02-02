@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/indutny/miller-rabin",
   "devDependencies": {
-    "mocha": "8.2.1"
+    "mocha": "^8.2.1"
   },
   "dependencies": {
     "bn.js": "^5.1.3",
